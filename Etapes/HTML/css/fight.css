@@ -1,0 +1,114 @@
+*{box-sizing: border-box; font-size: 100%;}
+#characterSelect{
+    display: flex;
+    justify-content: space-around;
+}
+#characterSelect img{
+    height: 5rem;
+}
+#characterSelect figure{
+    display: flex;
+}
+#hamburger{
+    background: royalblue;
+}
+#hamburger aside{
+    border-top: 2px solid aliceblue;
+    height:10px;
+    width: 30px;
+}
+header{display: flex;}
+table{
+    color: steelblue;
+    text-align: center;
+    border-collapse: collapse;
+    height:100%;
+    width: 10em;
+}
+th,td{
+border: 2px solid green;
+}
+main{
+    background: none;
+    width: 100%;
+    height: 650px;
+}
+h3{background:grey; padding: .5em;}
+#hero h3{background:tomato;}
+#enemy h3{background:steelblue;}
+main article{
+    width:40%;
+    padding: 3em;
+}
+main aside{
+    background: indianred;
+    height: 1em;
+}
+#ring{
+    display: flex; 
+    justify-content: space-around;
+    margin: 2em auto;
+    max-height: 100%;
+    max-width: 98%;
+}
+#ring img{
+    max-height:20em;
+    overflow: hidden;
+}
+#ring img:nth-child(1){transform:scale(-1,1);}
+#ring article:nth-child(2) img{transform:scale(-1,1);}
+#ring article:nth-child(3) {text-align: right;}
+#ring article{
+    background: rgba(255,255,255,.1);
+    box-shadow: skyblue 0 0 10px 5px;
+    overflow: hidden;
+}
+#ring article img{
+    height: 10em;
+    margin: 1em;
+    background: url();
+}
+#monitor{
+    width: 80%;
+    height: 12em;
+    overflow: auto;
+    overflow-y:visible;
+    padding: 2em; 
+    margin: 1em 10.5em; 
+    border: darkgreen 10px groove;
+    border-radius: 10px;
+    box-shadow: seagreen 0 0 10px 5px;
+    color: black;
+    background: olive;
+    font-family: "Pokemon Gb";
+    line-height: 2em;
+
+}
+#monitor p{
+    margin: 1em auto;
+    font-family: "Pokemon Gb";
+    margin: 1em auto;
+}
+#controls{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    display: none;
+    margin:0 10.5em;
+    border: darkgreen solid 3px;
+    border: gray 10px groove;
+    border-radius: 10px;
+
+}
+#controls button{
+    margin:0;
+    padding:1em;
+    font-family: "Pokemon Gb";
+    border: none;
+}
+.endGame{
+    color: steelblue;
+    font-size: 3em;
+    text-shadow: white 1px 1px 20px;
+}

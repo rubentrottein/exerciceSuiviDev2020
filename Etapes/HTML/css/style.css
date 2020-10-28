@@ -1,0 +1,84 @@
+/*Style Général exportable*/
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@font-face{
+    font-family: "Pokemon Solid";
+    src : url("pokemon/pokemonSolid.ttf");
+}
+@font-face{
+    font-family: "Pokemon Hollow";
+    src : url("pokemon/pokemonHollow.ttf");
+}
+@font-face{
+    font-family: "Pokemon GB";
+    src : url("pokemon/pokemonGb.ttf");
+}
+
+body{
+    background: white;
+    background: url(../img/neutral.jpg) fixed no-repeat;
+    background-size: cover;
+    height: 10em;
+    max-height: 10em;
+}
+h1{text-align:center;
+    font-size:2.8rem;
+    background: royalblue; 
+    color: aliceblue;
+    font-family: "Pokemon Hollow", "courier";
+    width: 100%;
+    line-height: 1rem;
+    padding:0;
+    margin:0;
+}
+header{margin: 0;padding:1em; background: royalblue;}
+main{border-radius: 7px 7px 0 0;}
+nav{
+    width:100%;
+    background: royalblue;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 1.7rem;
+    height:100%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav li{margin: 0;width:100%;text-align: center;}
+nav a{
+    text-decoration: none; 
+    color: lightblue;
+}
+nav a:hover{color: darkblue; transition: 1s;}
+nav ul li:hover{color: lightblue; transition: 1s;}
+main{
+    margin: 1em auto;
+    width: 70%; 
+    margin: 0 auto; 
+    background: rgba(0,0,0,.3);
+    background: rgba(255,255,255,.3);
+}
+h2{
+    background: skyblue; 
+    color: black;
+    font-family: "Pokemon Solid";
+    font-weight: 100;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    background: royalblue;
+    margin: 0;
+    padding:auto;
+    width: 100%;
+    bottom:0;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{color: aliceblue;text-decoration: none;}
